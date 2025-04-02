@@ -1,0 +1,67 @@
+mar. 18, 2025 9:46:33 PM liquibase.changelog
+INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202403031214.sql
+mar. 18, 2025 9:46:33 PM liquibase.changelog
+INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202418032124.sql
+mar. 18, 2025 9:46:33 PM liquibase.changelog
+INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202418032129.sql
+mar. 18, 2025 9:46:33 PM liquibase.changelog
+INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202418032132.sql
+mar. 18, 2025 9:46:33 PM liquibase.changelog
+INFORMAÇÕES: Creating database history table with name: board.DATABASECHANGELOG
+mar. 18, 2025 9:46:33 PM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+mar. 18, 2025 9:46:34 PM liquibase.lockservice
+INFORMAÇÕES: Successfully acquired change log lock
+mar. 18, 2025 9:46:34 PM liquibase.command
+INFORMAÇÕES: Using deploymentId: 2345194260
+mar. 18, 2025 9:46:34 PM liquibase.changelog
+INFORMAÇÕES: Reading from board.DATABASECHANGELOG
+Running Changeset: db/changelog/migrations/db.changelog-202403031214.sql::202403031214::ulrich
+mar. 18, 2025 9:46:34 PM liquibase.changelog
+INFORMAÇÕES: Custom SQL executed
+mar. 18, 2025 9:46:34 PM liquibase.changelog
+INFORMAÇÕES: ChangeSet db/changelog/migrations/db.changelog-202403031214.sql::202403031214::ulrich ran successfully in 39ms
+Running Changeset: db/changelog/migrations/db.changelog-202418032124.sql::202418032124::ulrich
+mar. 18, 2025 9:46:34 PM liquibase.changelog
+INFORMAÇÕES: Custom SQL executed
+mar. 18, 2025 9:46:34 PM liquibase.changelog
+INFORMAÇÕES: ChangeSet db/changelog/migrations/db.changelog-202418032124.sql::202418032124::ulrich ran successfully in 40ms
+Running Changeset: db/changelog/migrations/db.changelog-202418032129.sql::202418032129::ulrich
+mar. 18, 2025 9:46:34 PM liquibase.changelog
+INFORMAÇÕES: Custom SQL executed
+mar. 18, 2025 9:46:34 PM liquibase.changelog
+INFORMAÇÕES: ChangeSet db/changelog/migrations/db.changelog-202418032129.sql::202418032129::ulrich ran successfully in 38ms
+Running Changeset: db/changelog/migrations/db.changelog-202418032132.sql::202418032132::ulrich
+mar. 18, 2025 9:46:34 PM liquibase.changelog
+INFORMAÇÕES: Custom SQL executed
+mar. 18, 2025 9:46:34 PM liquibase.changelog
+INFORMAÇÕES: ChangeSet db/changelog/migrations/db.changelog-202418032132.sql::202418032132::ulrich ran successfully in 39ms
+
+UPDATE SUMMARY
+Run:                          4
+Previously run:               0
+Filtered out:                 0
+-------------------------------
+Total change sets:            4
+
+mar. 18, 2025 9:46:34 PM liquibase.util
+INFORMAÇÕES: UPDATE SUMMARY
+mar. 18, 2025 9:46:34 PM liquibase.util
+INFORMAÇÕES: Run:                          4
+mar. 18, 2025 9:46:34 PM liquibase.util
+INFORMAÇÕES: Previously run:               0
+mar. 18, 2025 9:46:34 PM liquibase.util
+INFORMAÇÕES: Filtered out:                 0
+mar. 18, 2025 9:46:34 PM liquibase.util
+INFORMAÇÕES: -------------------------------
+mar. 18, 2025 9:46:34 PM liquibase.util
+INFORMAÇÕES: Total change sets:            4
+mar. 18, 2025 9:46:34 PM liquibase.util
+INFORMAÇÕES: Update summary generated
+mar. 18, 2025 9:46:34 PM liquibase.command
+INFORMAÇÕES: Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 4
+mar. 18, 2025 9:46:34 PM liquibase.lockservice
+INFORMAÇÕES: Successfully released change log lock
+mar. 18, 2025 9:46:34 PM liquibase.command
+INFORMAÇÕES: Command execution complete

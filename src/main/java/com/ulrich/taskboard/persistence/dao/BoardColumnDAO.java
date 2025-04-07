@@ -2,6 +2,7 @@ package com.ulrich.taskboard.persistence.dao;
 
 import com.mysql.cj.jdbc.StatementImpl;
 import com.ulrich.taskboard.persistence.entity.BoardColumnEntity;
+import java.awt.List;
 import java.sql.Connection;
 import java.sql.SQLException;
 import lombok.RequiredArgsConstructor;
@@ -25,5 +26,14 @@ public class BoardColumnDAO {
       }
       return entity;
     }
+  }
+
+  public List<BoardColumnEntity> findByBoardId(final Long id) throws SQLException {
+    var sql = "SELECT id, name, `order` FROM BOARDS_COLUMNS WHERE board_id = ? ORDER BY `order`";
+    try (var statement = connection.prepareStatement(sql)) {
+      statement.setLong(1, id);
+      statement.executeQuery();
+    }
+    return null;
   }
 }

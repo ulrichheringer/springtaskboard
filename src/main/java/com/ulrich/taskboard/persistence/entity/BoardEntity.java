@@ -2,7 +2,6 @@ package com.ulrich.taskboard.persistence.entity;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import lombok.Data;
 
 @Data
